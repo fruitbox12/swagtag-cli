@@ -50,7 +50,7 @@ host=${ans.host}
 	       console.log('Set your address to tunnel with the following key:');
                console.log(b32.encode(out).replace('====','').toLowerCase());
                console.log('Or visit');
-               console.log('https://'+b32.encode(out).replace('====','').toLowerCase()+'.avax.ga');
+               console.log('https://'+b32.encode(out).replace('====','').toLowerCase()+'.zap');
 	});
 	},1000);
 
